@@ -13,10 +13,10 @@ Projeto criado para praticar programação front-end e manipulação do DOM.
 ## 📸 Como ficou
 
 ### Página da Loja
-![Print da Loja](img/print-loja.png)
+![Página da Loja](img/print-loja.png)
 
 ### Carrinho e Comentários
-![Print da Loja 2](img/print2-loja.png)
+![Carrinho e Comentários](img/print2-loja.png)
 
 ---
 
@@ -39,5 +39,6 @@ Projeto criado para praticar programação front-end e manipulação do DOM.
 
 ## 👨‍💻 Desenvolvedor
 
-✍️ Ezequiel Escobar Briance Camargo  
+✍️ Ezequiel Escobar Briance Cama  
 📌 [Meu GitHub](https://github.com/ezequielecamargo)
+
