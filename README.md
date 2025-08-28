@@ -41,7 +41,7 @@ Projeto criado para praticar programação front-end e manipulação do DOM.
 
 ## 👨‍💻 Desenvolvedor
 
-✍️ Ezequiel Escobar Briance Cama  
+✍️ Ezequiel Escobar Briance Camargo  
 📌 [Meu GitHub](https://github.com/ezequielecamargo)
 
 
