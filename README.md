@@ -13,10 +13,10 @@ Projeto criado para praticar programação front-end e manipulação do DOM.
 ## 📸 Como ficou
 
 ### Página da Loja
-![Página da Loja](img/print-loja.png)
+![Página da Loja](https://raw.githubusercontent.com/EzequielECamargo/stylezone/main/img/print-loja.png)
 
 ### Carrinho e Comentários
-![Carrinho e Comentários](img/print2-loja.png)
+![Carrinho e Comentários](https://raw.githubusercontent.com/EzequielECamargo/stylezone/main/img/print2-loja.png)
 
 ---
 
@@ -41,4 +41,5 @@ Projeto criado para praticar programação front-end e manipulação do DOM.
 
 ✍️ Ezequiel Escobar Briance Cama  
 📌 [Meu GitHub](https://github.com/ezequielecamargo)
+
 
