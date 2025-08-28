@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StyleZone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="fundo-gradiente">
+
+<h1>StyleZone</h1>
+
+<div class="loja" id="produtos"></div>
+
+<div class="carrinho" id="carrinho">
+  <h2>Carrinho</h2>
+  <div id="itensCarrinho"></div>
+  <strong>Total: R$ <span id="total">0</span></strong>
+</div>
+
+<div class="comentarios">
+  <h2>Comentários</h2>
+  <form id="formComentario">
+    <input type="text" id="nomeComentario" placeholder="Seu nome" required>
+    <textarea id="textoComentario" placeholder="Seu comentário" rows="3" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div id="listaComentarios"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

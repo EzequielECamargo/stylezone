@@ -1,0 +1,166 @@
+/* Fundo Gradiente */
+body.fundo-gradiente {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Cabeçalho */
+h1 {
+  text-align: center;
+  color: #1a202c;
+  margin-bottom: 30px;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Produtos */
+.loja {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.produto {
+  background: #fff;
+  border-radius: 15px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 380px;
+}
+
+.produto:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Agrupa imagem, título e preço */
+.produto-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; /* ocupa todo espaço antes do botão */
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.produto h3 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.produto p {
+  margin: 5px 0 0;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+}
+
+.produto button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.produto button:hover {
+  background: #0056b3;
+}
+
+/* Carrinho */
+.carrinho {
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* Comentários */
+.comentarios {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.comentarios h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #1a202c;
+}
+
+.comentarios form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.comentarios input, 
+.comentarios textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1em;
+}
+
+.comentarios button {
+  padding: 10px 15px;
+  background: #28a745;
+  font-size: 1em;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.comentarios button:hover {
+  background: #218838;
+}
+
+.comentarioItem {
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+}
+
+.comentarioItem strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
